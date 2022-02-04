@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MultiselectComponent } from './select-autocomplete.component';
+import { SelectAutocompleteComponent } from './select-autocomplete.component';
 
 describe('MultiselectComponent', () => {
-  let component: MultiselectComponent;
-  let fixture: ComponentFixture<MultiselectComponent>;
+  let component: SelectAutocompleteComponent;
+  let fixture: ComponentFixture<SelectAutocompleteComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MultiselectComponent ]
+      declarations: [ SelectAutocompleteComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MultiselectComponent);
+    fixture = TestBed.createComponent(SelectAutocompleteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
